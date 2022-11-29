@@ -1,0 +1,8 @@
+.div_category{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.h3_category{
+    font-family: monospace;
+    font-size: calc(0.55em + 0.5vw);
+}

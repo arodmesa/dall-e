@@ -1,0 +1,7 @@
+.div_ModerationComponent{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 92vw;
+    max-width: 600px;
+}
+

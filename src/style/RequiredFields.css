@@ -1,0 +1,27 @@
+.p_label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: calc(0.5em + 0.6vw);
+    text-align: center;
+}
+.div_organize_inputs{
+    column-gap: 15px;
+}
+.div_organize_input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.input{
+    width: auto;
+    height: 27px;
+    min-width: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: calc(0.7em + 0.6vw);
+    border-radius: 10px;
+}
+.text{
+    font-size: calc(0.4em + 0.5vw);
+    width: 100%;
+}

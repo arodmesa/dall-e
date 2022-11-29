@@ -1,38 +1,63 @@
+@font-face {
+  font-family: 'Rubik-D';
+  src: url('./style/RubikDistressed-Regular.ttf');
+}
+@font-face {
+  font-family: 'Rubik-H';
+  src: url('./style/RubikMarkerHatch-Regular.ttf');
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  background-color: #bdc3c7;
+  row-gap: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.app_title{
+  text-align: center;
+  font-family: 'Rubik-H', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: calc(2em + 3vw);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p_title{
+  font-family: monospace;
+  text-align: center;
+  font-size: calc(0.65em + 0.7vw);
+}
+.div_row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2%;
+}
+.div_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.prompt_textarea{
+  min-width: 55%;
+  max-width: 55%;
+  min-height: 90%;
+  max-height: 90%;
+  margin-left: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: calc(0.75em + 0.3vw);
+  border-radius: 5px;
+  text-align: justify;
+}
+.div_textarea{
+  height: 20vh;
+}
+.help_text{
+  font-size: calc(0.3em + 0.8vw);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  margin-top: 15px;
+  margin-bottom: 10px;
 }

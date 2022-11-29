@@ -1,0 +1,8 @@
+.div_images{
+    row-gap: 15px;
+}
+.generated_images{
+    width: 20vw;
+    min-width: 140px;
+    border-radius: 15px;
+}
