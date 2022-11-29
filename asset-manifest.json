@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dall_e/static/css/main.06290e02.css",
+    "main.js": "/dall_e/static/js/main.7c35f841.js",
+    "static/js/787.964e2106.chunk.js": "/dall_e/static/js/787.964e2106.chunk.js",
+    "static/media/RubikDistressed-Regular.ttf": "/dall_e/static/media/RubikDistressed-Regular.904e9380e0b728a433d7.ttf",
+    "static/media/RubikMarkerHatch-Regular.ttf": "/dall_e/static/media/RubikMarkerHatch-Regular.0526a43151bfc38557b5.ttf",
+    "index.html": "/dall_e/index.html",
+    "main.06290e02.css.map": "/dall_e/static/css/main.06290e02.css.map",
+    "main.7c35f841.js.map": "/dall_e/static/js/main.7c35f841.js.map",
+    "787.964e2106.chunk.js.map": "/dall_e/static/js/787.964e2106.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06290e02.css",
+    "static/js/main.7c35f841.js"
+  ]
+}
